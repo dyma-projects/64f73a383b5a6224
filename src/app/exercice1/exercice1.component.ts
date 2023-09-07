@@ -11,4 +11,9 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  incDec(increment: boolean) {
+    if (increment) this.result++;
+    else this.result--;
+  }
 }
